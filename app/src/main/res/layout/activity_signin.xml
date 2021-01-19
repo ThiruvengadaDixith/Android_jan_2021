@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:backgroundTint="#E5E5E5"
+    tools:context=".Signin">
+
+    <ImageView
+        android:id="@+id/Welcome_logo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/welcomeback_logo"
+        tools:layout_editor_absoluteX="102dp"
+        tools:layout_editor_absoluteY="34dp" />
+
+    <Button
+        android:id="@+id/btn_facebook"
+        android:layout_width="350dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/landing_btn_signup"
+        android:text="@string/continue_with_facebook"
+        app:icon="@drawable/facebook_vector"
+        tools:layout_editor_absoluteX="27dp"
+        tools:layout_editor_absoluteY="72dp" />
+
+    <Button
+        android:id="@+id/btn_google"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#E5E5E5"
+        android:text="@string/continue_with_google"
+        android:textColor="@color/black"
+        app:icon="@drawable/google_vector"
+        app:iconTintMode="multiply"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="142dp" />
+
+    <TextView
+        android:id="@+id/txt_emaillogin"
+        android:layout_width="368dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/or_login_with_email"
+        tools:layout_editor_absoluteX="9dp"
+        tools:layout_editor_absoluteY="219dp" />
+</androidx.constraintlayout.widget.ConstraintLayout>
